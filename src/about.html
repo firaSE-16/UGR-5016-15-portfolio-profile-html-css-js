@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Firaol</title>
+</head>
+<body>
+ <audio id="background-audio" loop autoplay>
+    <source src="./audio/backgroundSong.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header>
+    <nav class="navigation">
+      <div class="logo">
+        <h1>Firaol</h1>
+      </div>
+      <div class="nav-links">
+        <a href="home.html">HOME</a> 
+        <a href="about.html">ABOUT ME</a> 
+        <a href="portfolio.html">PORTFOLIO</a> 
+        <a href="services.html">SERVICES</a> 
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2 class="intro-title">About Me</h2>
+      <p class="intro-description">
+       I am a passionate developer and startup enthusiast with a strong drive to create innovative solutions. 
+       I enjoy tackling complex challenges, solving real-world problems, and building impactful companies from the ground up. 
+       My journey is fueled by curiosity, creativity, and a commitment to continuous learning. 
+       Whether it’s designing user-friendly applications or strategizing business models, I am dedicated to turning ideas into reality 
+       and making a positive difference in the world.
+      </p>
+      <img class="feeling-image" src="./images/about.jpg" alt="Expressing My Feeling">
+    </section>
+
+    <section class="education">
+      <h2 class="education-title">My Education and Experience</h2>
+      <p class="education-description">
+        I started coding when I was in high school at the America Corner. When I was in grade 11, 
+        I took a web development bootcamp. After joining university, I pursued different online courses, 
+        and I am currently a 3rd-year Software Engineering student at Addis Ababa University.
+      </p>
+    </section>
+
+    <section class="hobbies">
+      <h2 class="hobbies-title">My Hobbies</h2>
+      <div class="hobbies-slider">
+        <button class="arrow-left">&larr;</button>
+        <div class="hobby" id="hobby-content">
+          <h3 class="hobby-title">Football</h3>
+          <img class="hobby-image" src="football.jpg" alt="Football">
+        </div>
+        <button class="arrow-right">&rarr;</button>
+      </div>
+    </section>
+
+    <script>
+      const hobbies = [
+        { title: "Football", image: "./images/football.jpg" },
+        { title: "Gym", image: "./images/gym.jpg" },
+        { title: "Podcast", image: "./images/podcast.jpg" },
+        { title: "Coding", image: "./images/coding.jpg" },
+        { title: "Learning Business", image: "./images/business.jpg" },
+        { title: "Church", image: "./images/church.jpg" },
+      ];    
+    </script>
+
+    <section class="schedule">
+      <h2 class="schedule-title">My Weekly Schedule</h2>
+      <table class="schedule-table" border="1">
+        <tr>
+          <th>Day</th>
+          <th>Morning</th>
+          <th>Afternoon</th>
+          <th>Night</th>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Church</td>
+          <td>Rest and personal projects</td>
+          <td>Prepare for the week</td>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Study coding</td>
+          <td>Attend classes</td>
+          <td>Review and plan</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Gym</td>
+          <td>Classes</td>
+          <td>Podcast</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Personal projects</td>
+          <td>Study business</td>
+          <td>Relax</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>FSE and Computer Architecture classes</td>
+          <td>Work on assignments</td>
+          <td>Revise</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Web Development class</td>
+          <td>Implement projects</td>
+          <td>Enjoy a podcast</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>Football</td>
+          <td>Study coding</td>
+          <td>Plan for the next week</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer class="footer">
+    
+    <p class="footer-text">&copy; ©2024 Firaol. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
