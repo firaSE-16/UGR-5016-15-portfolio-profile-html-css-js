@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services - Firaol</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
  <audio id="background-audio" loop autoplay>
@@ -18,22 +20,23 @@
       <div class="logo">
         <h1>Firaol</h1>
       </div>
-      <div class="nav-links">
-        <a href="home.html">HOME</a> |
-        <a href="about.html">ABOUT ME</a> |
-        <a href="portfolio.html">PORTFOLIO</a> |
-        <a href="services.html">SERVICES</a> |
-        <a href="contact.html">CONTACT</a>
-      </div>
+      <img src="./images/menu.png" alt="Menu" class="menu" onclick="toggleMenu()">
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
     </nav>
   </header>
 
 
   <main>
     <section class="services">
-      <h2>My Services</h2>
+      <h2 class="service-title">My Services</h2>
 
-      
+      <div class="service-box">
       <div class="service-container">
         <div class="service-image">
           <img src="./images/fullstack.jpg" alt="Fullstack Development">
@@ -76,7 +79,7 @@
           <p>I design intuitive, user-friendly interfaces that not only look great but also provide seamless user experiences. My design philosophy is centered around user needs, ensuring your app or website is both functional and visually appealing.</p>
         </div>
       </div>
-
+    </div>
     </section>
   </main>
 
@@ -85,6 +88,6 @@
     
     <p class="footer-text">&copy; ©2024 Firaol. All Rights Reserved.</p>
   </footer>
-
+  <script src="./script.js"></script>
 </body>
 </html>

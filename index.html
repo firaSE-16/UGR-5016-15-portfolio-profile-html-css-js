@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firaol's Portfolio</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="background-audio" loop autoplay>
+        <source src="./src/audio/backgroundSong.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <h1>FIRAOL</h1>
+            </div>
+            <img src="./src/images/menu.png" alt="Menu" class="menu" onclick="toggleMenu()">
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./src/about.html">About Me</a></li>
+                <li><a href="./src/portfolio.html">Portfolio</a></li>
+                <li><a href="./src/services.html">Services</a></li>
+                <li><a href="./src/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <h2 class="intro-title-1">Hi I am </h2>
+                <h2 class="intro-title-2">Firaol Ayana</h2>
+                <h1 class="intro-title-3">Fullstack</h1>
+                <h1 class="intro-title-4">Developer</h1>
+
+                <p class="intro-description">
+                    I am a passionate full-stack web developer skilled in building dynamic 
+                    and interactive web applications. I love solving complex problems 
+                    and creating user-friendly solutions.
+                </p>
+
+                <div class="social">
+                  <div class="social-1">
+                    <button class="button" onclick="window.location.href='resume.pdf'">Resume</button>
+                    <button class="button" onclick="window.location.href='hireme.html'">Hire Me</button>
+                  </div>
+                  <div  class="social-2">
+                    <a class="social-link" href="https://t.me/loarif12" target="_blank"><img src="./src/images/telegram.png" alt="Telegram"></a>
+                    <a class="social-link" href="https://www.linkedin.com/in/firaol-ayana-8aba05265" target="_blank"><img src="./src/images/linkedin.png" alt="LinkedIn"></a>
+                    <a class="social-link" href="https://github.com/firaSE-16" target="_blank"><img src="./src/images/github.png" alt="GitHub"></a>
+                  </div>
+                  </div>
+            </div>
+            <img class="profile-image" src="./src/images/profile.jpg" alt="Firaol">
+        </section>
+    </main>
+    <script src="./src/script.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Firaol. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
